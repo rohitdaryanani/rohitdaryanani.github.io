@@ -1,0 +1,11 @@
+# Site settings
+title: a fucking blog.
+email: rohitdaryanani@outlook.com
+description: Absolutely awkward proudest of nerd and geek decreaser of world sucking.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: alis894
+github_username:  rohitdaryanani
+
+# Build settings
+markdown: kramdown
