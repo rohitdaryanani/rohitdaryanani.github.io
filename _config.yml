@@ -1,11 +1,14 @@
 # Site settings
-title: a fucking blog.
+title: Rohit Daryanani
+name: Rohit Daryanani
 email: rohitdaryanani@outlook.com
-description: Absolutely awkward proudest of nerd and geek decreaser of world sucking.
+description: Absolutely awkward proudest of nerd, geek and decreaser of world sucking.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://rohitdaryanani.com" # the base hostname & protocol for your site
 twitter_username: alis894
 github_username:  rohitdaryanani
+linkedin_profile: id=115351229
+location: Cebu Philippines
 
 # Build settings
 markdown: kramdown
