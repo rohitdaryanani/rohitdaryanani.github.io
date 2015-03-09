@@ -1,11 +1,10 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
+I'm currently working as a Software Developer at Global Zeal Inc. A startup company based in Cebu Philippines.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm into video games mostly on console usually play jrpg, sony exclusives(Uncharted, last of us and god of war and more).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+At University of San Carlos i took up computer engineering mostly because i thought we were gonna build robots.
