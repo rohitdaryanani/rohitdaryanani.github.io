@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "adelle", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -25,6 +25,9 @@ $grey-color-dark:  darken($grey-color, 25%);
 $my-yellow-color: #e4ff4d;
 $my-grey:         #aaaaaa;
 $my-green-darker: #00a084;
+$my-green-dark:   #20a68f;
+$my-green-light:  #00C3A1;
+$my-white:        #ffffff;
 
 // Width of the content area
 $content-width:    800px;

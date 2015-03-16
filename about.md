@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: PROFILE
 permalink: /about/
 ---
 I'm currently working as a Software Developer at Global Zeal Inc. A startup company based in Cebu Philippines.
