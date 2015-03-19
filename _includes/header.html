@@ -17,23 +17,14 @@
 
       <div class="trigger">
 
-        {% if page.url %}
-            <a class="page-link active" href="/">BLOG</a>
-        {% else %}
+        {% if page.url == "/about/"%}
             <a class="page-link" href="/">BLOG</a>
+            <a class="page-link active" href="/about">PROFILE</a>
+        {% else %}
+            <a class="page-link active" href="/">BLOG</a>
+            <a class="page-link" href="/about">PROFILE</a>
         {% endif %}
 
-
-
-
-        {% for page in site.pages %}
-          {% if page.title %}
-            <a class="page-link
-            {% if _page.url == page.url %}
-              active{% endif %}"
-            href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
       </div>
     </nav>
 

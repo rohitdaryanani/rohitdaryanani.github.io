@@ -175,7 +175,8 @@ pre {
   letter-spacing: -1px;
   margin-bottom: 7px;
   float: left;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 9px; }
   .site-title, .site-title:hover {
     text-decoration: none;
     color: #00a084; }
