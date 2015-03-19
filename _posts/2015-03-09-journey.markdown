@@ -5,5 +5,5 @@ date:   2015-03-09 19:29:00
 categories: code
 ---
 So this would be my first official post, I’m starting this blog in order to document the stuff I do. They say you learn better if you can explain or teach it somebody. So here I would be posting all the software development stuff I do as I try to learn and master this craft.
-
+<!--break-->
 As my friend said to me as a software engineer we should be able to document our work.

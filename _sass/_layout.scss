@@ -11,17 +11,19 @@
     position: relative;
 }
 
+.pre-title {
+    font-size: 16px;
+    color: $my-grey;
+    font-family: "tablet-gothic-condensed";
+    text-align: center;
+    margin-top: 77px;
+}
+
 .title-container {
     margin: auto;
     width: 290px;
-    margin-top: 80px;
+    // margin-top: 80px;
 
-    .pre-title {
-        font-size: 16px;
-        color: $my-grey;
-        font-family: "tablet-gothic-condensed";
-        text-align: center;
-    }
 
     .after-title {
         font-style: italic;
@@ -53,8 +55,8 @@
 }
 
 .active {
-    color: $my-white;
-    background-color: $my-green-light;
+    color: $my-white !important;
+    background-color: $my-green-light !important;
 
     &:hover {
         text-decoration: none;
@@ -63,16 +65,16 @@
         color: $my-white;
     }
 }
-.inactive {
-    background-color: $my-green-darker;
-    color: $my-green-light;
-    &:hover {
-        text-decoration: none;
-    }
-    &:visited {
-        color: $my-green-light;
-    }
-}
+// .inactive {
+//     background-color: $my-green-darker;
+//     color: $my-green-light;
+//     &:hover {
+//         text-decoration: none;
+//     }
+//     &:visited {
+//         color: $my-green-light;
+//     }
+// }
 
 .site-nav {
     float: right;
@@ -91,6 +93,8 @@
         text-align: center;
         font-family: "tablet-gothic-condensed";
         font-size: 21px;
+        background-color: $my-green-darker;
+        color: $my-green-light;
 
         &:hover {
             text-decoration: none;
@@ -130,6 +134,7 @@
             clear: both;
             display: none;
             width: 292px;
+            margin-top: 12px;
         }
 
         &:hover .trigger {
@@ -311,6 +316,9 @@
 /**
  * Posts
  */
+.post {
+    text-align: center;
+}
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -319,6 +327,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    color: $my-white;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -327,6 +336,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    color: $my-white;
 
     h2 {
         font-size: 32px;

@@ -152,15 +152,16 @@ pre {
   padding-top: 35px;
   position: relative; }
 
+.pre-title {
+  font-size: 16px;
+  color: #aaaaaa;
+  font-family: "tablet-gothic-condensed";
+  text-align: center;
+  margin-top: 77px; }
+
 .title-container {
   margin: auto;
-  width: 290px;
-  margin-top: 80px; }
-  .title-container .pre-title {
-    font-size: 16px;
-    color: #aaaaaa;
-    font-family: "tablet-gothic-condensed";
-    text-align: center; }
+  width: 290px; }
   .title-container .after-title {
     font-style: italic;
     font-size: 15px;
@@ -183,20 +184,12 @@ pre {
     color: #00a084; }
 
 .active {
-  color: #ffffff;
-  background-color: #00C3A1; }
+  color: #ffffff !important;
+  background-color: #00C3A1 !important; }
   .active:hover {
     text-decoration: none; }
   .active:visited {
     color: #ffffff; }
-
-.inactive {
-  background-color: #00a084;
-  color: #00C3A1; }
-  .inactive:hover {
-    text-decoration: none; }
-  .inactive:visited {
-    color: #00C3A1; }
 
 .site-nav {
   float: right;
@@ -211,7 +204,9 @@ pre {
     width: 70px;
     text-align: center;
     font-family: "tablet-gothic-condensed";
-    font-size: 21px; }
+    font-size: 21px;
+    background-color: #00a084;
+    color: #00C3A1; }
     .site-nav .page-link:hover {
       text-decoration: none; }
   @media screen and (max-width: 600px) {
@@ -239,7 +234,8 @@ pre {
       .site-nav .trigger {
         clear: both;
         display: none;
-        width: 292px; }
+        width: 292px;
+        margin-top: 12px; }
       .site-nav:hover .trigger {
         display: block;
         padding-bottom: 5px; }
@@ -372,19 +368,24 @@ pre {
 /**
  * Posts
  */
+.post {
+  text-align: center; }
+
 .post-header {
   margin-bottom: 30px; }
 
 .post-title {
   font-size: 42px;
   letter-spacing: -1px;
-  line-height: 1; }
+  line-height: 1;
+  color: #ffffff; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  color: #ffffff; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {

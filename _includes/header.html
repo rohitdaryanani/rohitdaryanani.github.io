@@ -1,8 +1,8 @@
 <header class="site-header">
 
-  <div class="title-container">
-
     <p class="pre-title"><span>–––––––––––– </span>THE OFFICIAL BLOG OF<span> ––––––––––––</span></p>
+    <div class="title-container">
+
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     <p class="after-title">Software Engineer Extraordinaire</p>
 
@@ -16,10 +16,22 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link active" href="/">BLOG</a>
+
+        {% if page.url %}
+            <a class="page-link active" href="/">BLOG</a>
+        {% else %}
+            <a class="page-link" href="/">BLOG</a>
+        {% endif %}
+
+
+
+
         {% for page in site.pages %}
           {% if page.title %}
-          <a class="page-link inactive" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="page-link
+            {% if _page.url == page.url %}
+              active{% endif %}"
+            href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>

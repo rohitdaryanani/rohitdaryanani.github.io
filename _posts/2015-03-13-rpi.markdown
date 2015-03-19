@@ -4,3 +4,6 @@ title:  "Raspberry Pi"
 date:   2015-03-13 18:13:00
 categories: code
 ---
+So my Raspberry Pi just arrived a few days ago, I got the B+ model which has mo USB ports and 512MB ram.
+<!--break-->
+One of the reasons I bought a raspberry pie is I'm trying to familiarize and get comfortable using a POSIX environment since I really suck at it.

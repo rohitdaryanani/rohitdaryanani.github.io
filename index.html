@@ -12,10 +12,15 @@ layout: default
         <h2 class="post-link">
             {{ post.title }}
         </h2>
-            <div class="content">{{post.content}}</div>
-
+            <div class="content">
+                {{ post.content | split:'<!--break-->' | first }}
+                {% if post.content contains '<!--break-->' %}
+                    <span>. .</span>
+                {% endif %}
+            </div>
 
         <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">READ MORE</a>
+
       </li>
     {% endfor %}
   </ul>
