@@ -6,12 +6,12 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%A –– %b %-d, %Y" }}</span>
+        <li>
+            <span class="post-meta">{{ post.date | date: "%A –– %b %-d, %Y" }}</span>
 
-        <h2 class="post-link">
-            {{ post.title }}
-        </h2>
+            <h2 class="post-link">
+                {{ post.title }}
+            </h2>
             <div class="content">
                 {{ post.content | split:'<!--break-->' | first }}
                 {% if post.content contains '<!--break-->' %}
@@ -19,9 +19,24 @@ layout: default
                 {% endif %}
             </div>
 
-        <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">READ MORE</a>
+            <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">READ MORE</a>
+            <!-- <img src="/images/comments.svg" alt="" class="comment-icon"><span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span> -->
 
-      </li>
+
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES * * */
+                var disqus_shortname = 'rohitdaryanani';
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function () {
+                    var s = document.createElement('script'); s.async = true;
+                    s.type = 'text/javascript';
+                    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+                    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+                }());
+            </script>
+
+        </li>
     {% endfor %}
   </ul>
 

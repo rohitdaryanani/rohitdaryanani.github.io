@@ -403,6 +403,16 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+.disqus-comment-count {
+  color: #ffffff;
+  opacity: 0.7; }
+
+.comment-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+  opacity: 0.7; }
+
 /**
  * Syntax highlighting styles
  */
