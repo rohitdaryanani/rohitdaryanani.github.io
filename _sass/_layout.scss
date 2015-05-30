@@ -98,7 +98,7 @@
         color: $my-green-light;
 
         &:hover {
-            text-decoration: none;
+            color: white;
         }
 
     }
@@ -305,11 +305,16 @@
     font-family: "tablet-gothic-condensed";
 
     &:hover {
-        text-decoration: none;
+        text-decoration: underline;
+        background-color: $my-green-dark;
     }
     &:visited {
         color:$my-green-darker;
     }
+}
+
+a.read-more:hover {
+    color:$my-yellow-color;
 }
 
 
@@ -375,4 +380,8 @@
     height: 16px;
     margin-right: 3px;
     opacity: 0.7;
+}
+
+.icon:hover > svg path{
+    fill : black;
 }
